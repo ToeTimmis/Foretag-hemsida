@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 4fr 1fr;
+    min-height: 100vh;
+    background-color: #101529;
+}
+
+header {
+    display: flex;
+    grid-column: 1/7;
+    grid-row: 1/2;
+    justify-content: center;
+    background-color: #203a69;
+}
+
+nav ul{
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a {
+    color: #d4ead4;
+}
+
+nav {
+    flex: 0 0 100%;
+    display: flex;
+}
