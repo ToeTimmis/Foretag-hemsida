@@ -23,14 +23,39 @@ nav ul{
     flex: 0 0 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
 }
 
-a {
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
     color: #d4ead4;
+    text-decoration-line: none;
+}
+
+header a:hover {
+    font-size: 250%;
+    color: white;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d4ead4;
+    text-decoration-line: none;
 }
 
 nav {
     flex: 0 0 100%;
     display: flex;
+}
+
+footer {
+    display: flex;
+    grid-column: 1/7;
+    grid-row: 3/4;
+}
+
+footer a {
+    color: #d4ead4;
 }
