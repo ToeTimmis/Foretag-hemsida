@@ -5,15 +5,15 @@
 
 body {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr;
     min-height: 100vh;
     background-color: #101529;
 }
 
 header {
     display: flex;
-    grid-column: 1/7;
+    grid-column: 1/13;
     grid-row: 1/2;
     justify-content: center;
     background-color: #203a69;
@@ -30,7 +30,7 @@ nav ul{
 header a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
-    color: #d4ead4;
+    color: #e2e1e1;
     text-decoration-line: none;
 }
 
@@ -50,12 +50,47 @@ nav {
     display: flex;
 }
 
-footer {
-    display: flex;
-    grid-column: 1/7;
-    grid-row: 3/4;
+#rubrik{
+    grid-column: 1/13;
+    grid-row: 2/6;
+    margin: 4vh;
 }
 
-footer a {
+article {
+    grid-column: 2/8;
+    grid-row: 3/6;
+    
+}
+
+h1 {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
     color: #d4ead4;
+}
+
+article p {
+    grid-row: 3/4;
+    color: #d4ead4;
+}
+
+footer {
+    display: flex;
+    grid-column: 1/13;
+    grid-row: 6/8;
+    background-color: #203a69;
+}
+
+footer nav {
+    flex: 0 0 100%;
+    grid-row: 6/7;
+    color: #d4ead4;
+    justify-content: center;
+}
+
+footer p {
+    flex: 0 0 100%;
+    grid-row: 7/8;
+    color: #d4ead4;
+    justify-content: center;
 }
