@@ -70,7 +70,7 @@ nav {
 
 #rubrik{
     grid-column: 1/13;
-    grid-row: 2/6;
+    grid-row: 2/3;
     margin: 4vh;
 }
 
@@ -85,7 +85,7 @@ h1 {
     display: flex;
     justify-content: center;
     color: #d4ead4;
-    font-size: 300%;
+    font-size: 250%;
 }
 
 article p {
@@ -115,16 +115,28 @@ footer p {
     justify-content: center;
 }
 
+div {
+    overflow: hidden;
+    display: flex;
+    grid-column: 3/6;
+    grid-row: 3/6;
+}
+
+div:hover {
+    overflow: hidden;
+    display: flex;
+    grid-column: 1/8;
+    grid-row: 3/6;
+}
+
 #thisguy {
-    max-width: 20em;
-    min-height: 20em;
+    min-width: 18rem;
+    min-height:  18rem;
+    max-width: 20rem;
+    max-height: 20rem;
+    align-items: center;
 }
 
 #thisgameinfo {
-    visibility: hidden;
-}
-
-
-#thisguy:hover {
-    
+    margin-left: 1.8rem;
 }
