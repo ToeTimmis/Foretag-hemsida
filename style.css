@@ -115,6 +115,10 @@ footer p {
     justify-content: center;
 }
 
+article a {
+    font-family: serif;
+}
+
 div {
     overflow: hidden;
     display: flex;
@@ -125,18 +129,44 @@ div {
 div:hover {
     overflow: hidden;
     display: flex;
-    grid-column: 1/8;
+    grid-column: 1/11;
     grid-row: 3/6;
 }
 
 #thisguy {
-    min-width: 18rem;
-    min-height:  18rem;
+    min-width: 10rem;
+    min-height:  10rem;
     max-width: 20rem;
     max-height: 20rem;
     align-items: center;
 }
 
 #thisgameinfo {
+    margin-left: 1.8rem;
+}
+
+#piggysadventure {
+    overflow: hidden;
+    display: flex;
+    grid-column: 8/11;
+    grid-row: 3/6;
+}
+
+#piggysadventure:hover {
+    overflow: hidden;
+    display: flex;
+    grid-column: 6/11;
+    grid-row: 3/6;
+}
+
+#piggy {
+    min-width: 10rem;
+    min-height:  10rem;
+    max-width: 20rem;
+    max-height: 20rem;
+    align-items: center;
+}
+
+#piggysinfo {
     margin-left: 1.8rem;
 }
