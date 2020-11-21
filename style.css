@@ -6,7 +6,7 @@
 body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 0.5fr 50px;
     min-height: 100vh;
     background-color: #101529;
 }
@@ -119,14 +119,14 @@ article a {
     font-family: serif;
 }
 
-div {
+#thisguysadventure {
     overflow: hidden;
     display: flex;
     grid-column: 3/6;
     grid-row: 3/6;
 }
 
-div:hover {
+#thisguysadventure:hover {
     overflow: hidden;
     display: flex;
     grid-column: 1/11;
@@ -169,4 +169,65 @@ div:hover {
 
 #piggysinfo {
     margin-left: 1.8rem;
+}
+
+#thisgamebody {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 50px;
+    min-height: 100vh;
+    background-color: #101529;
+}
+
+#thisgame {
+    grid-row: 2/10;
+    font-size: 200%;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+#thisfooter {
+
+    display: flex;
+    grid-column: 1/13;
+    grid-row: 10/11;
+    background-color: #203a69;
+    box-shadow: 0 -1em 10em black;
+}
+    
+#thisfooter nav {
+    flex: 0 0 100%;
+    color: #d4ead4;
+    justify-content: center;
+}
+    
+
+#piggybody {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 50px;
+    min-height: 100vh;
+    background-color: #101529;
+}
+
+#piggygame {
+    grid-row: 2/10;
+    font-size: 200%;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+#piggyfooter {
+
+    display: flex;
+    grid-column: 1/13;
+    grid-row: 10/11;
+    background-color: #203a69;
+    box-shadow: 0 -1em 10em black;
+}
+    
+#piggyfooter nav {
+    flex: 0 0 100%;
+    color: #d4ead4;
+    justify-content: center;
 }
