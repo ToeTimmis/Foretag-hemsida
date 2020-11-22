@@ -17,7 +17,7 @@ header {
     grid-row: 1/2;
     justify-content: center;
     background-color: #203a69;
-    box-shadow: 0 2em 10em black;
+    box-shadow: 0 2vh 10vh black;
 }
 
 nav ul{
@@ -30,7 +30,7 @@ nav ul{
 
 header a {
     font-family: 'Roboto', sans-serif;
-    font-size: 200%;
+    font-size: 2.5vmax;
     color: #e2e1e1;
     text-decoration-line: none;
 }
@@ -77,7 +77,6 @@ nav {
 article {
     grid-column: 2/8;
     grid-row: 3/6;
-    
 }
 
 h1 {
@@ -85,12 +84,14 @@ h1 {
     display: flex;
     justify-content: center;
     color: #d4ead4;
-    font-size: 250%;
+    font-size: 2.5vmax;
 }
 
 article p {
     grid-row: 3/4;
+    font-size: 1.5vmax;
     color: #d4ead4;
+    justify-content: center;
 }
 
 footer {
@@ -98,7 +99,7 @@ footer {
     grid-column: 1/13;
     grid-row: 7/8;
     background-color: #203a69;
-    box-shadow: 0 -1em 10em black;
+    box-shadow: 0 -1vmax 10vmax black;
 }
 
 footer nav {
@@ -122,53 +123,37 @@ article a {
 #thisguysadventure {
     overflow: hidden;
     display: flex;
-    grid-column: 3/6;
-    grid-row: 3/6;
-}
-
-#thisguysadventure:hover {
-    overflow: hidden;
-    display: flex;
-    grid-column: 1/11;
+    grid-column: 3/7;
     grid-row: 3/6;
 }
 
 #thisguy {
-    min-width: 10rem;
-    min-height:  10rem;
-    max-width: 20rem;
-    max-height: 20rem;
+    min-width: 10vmax;
+    min-height:  10vmax;
+    max-width: 20vmax;
+    max-height: 20vmax;
     align-items: center;
 }
 
-#thisgameinfo {
-    margin-left: 1.8rem;
+img {
+    min-width: 10vmax;
+    min-height:  10vh;
+    max-width: 20vmax;
+    max-height: 20vh;
 }
 
 #piggysadventure {
-    overflow: hidden;
     display: flex;
     grid-column: 8/11;
     grid-row: 3/6;
 }
 
-#piggysadventure:hover {
-    overflow: hidden;
-    display: flex;
-    grid-column: 6/11;
-    grid-row: 3/6;
-}
-
 #piggy {
-    min-width: 10rem;
-    min-height:  10rem;
-    max-width: 20rem;
-    max-height: 20rem;
+    min-width: 10vmax;
+    min-height:  10vmax;
+    max-width: 20vmax;
+    max-height: 20vmax;
     align-items: center;
-}
-
-#piggysinfo {
-    margin-left: 1.8rem;
 }
 
 #thisgamebody {
@@ -180,14 +165,29 @@ article a {
 }
 
 #thisgame {
+    display: flex;
     grid-row: 2/10;
+    grid-column: 3/11;
     font-size: 200%;
     margin-bottom: 3rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#thisgame p {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+#thisgame a {
+    color: white;
+    font-size: 5vmax;
+    margin-bottom: 5rem;
     margin-top: 5rem;
 }
 
 #thisfooter {
-
     display: flex;
     grid-column: 1/13;
     grid-row: 10/11;
@@ -211,9 +211,25 @@ article a {
 }
 
 #piggygame {
+    display: flex;
     grid-row: 2/10;
+    grid-column: 3/11;
     font-size: 200%;
     margin-bottom: 3rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#piggygame p {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+#piggygame a {
+    color: white;
+    font-size: 5vmax;
+    margin-bottom: 5rem;
     margin-top: 5rem;
 }
 
@@ -231,3 +247,4 @@ article a {
     color: #d4ead4;
     justify-content: center;
 }
+
