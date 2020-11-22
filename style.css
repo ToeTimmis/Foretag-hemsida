@@ -136,10 +136,8 @@ article a {
 }
 
 img {
-    min-width: 10vmax;
-    min-height:  10vh;
-    max-width: 20vmax;
-    max-height: 20vh;
+    width: 40vmax;
+    height: auto;
 }
 
 #piggysadventure {
@@ -168,23 +166,23 @@ img {
     display: flex;
     grid-row: 2/10;
     grid-column: 3/11;
-    font-size: 200%;
-    margin-bottom: 3rem;
-    margin-top: 5rem;
-    flex-wrap: wrap;
-    justify-content: center;
+    font-size: 4vmax;
+    margin-bottom: 5vmax;
+    margin-top: 8vmax;
+    flex-direction: column;
+    align-items: center;
 }
 
 #thisgame p {
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 5vmax;
+    margin-top: 5vmax;
 }
 
 #thisgame a {
     color: white;
     font-size: 5vmax;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 5vmax;
+    margin-top: 7vmax;
 }
 
 #thisfooter {
@@ -192,7 +190,7 @@ img {
     grid-column: 1/13;
     grid-row: 10/11;
     background-color: #203a69;
-    box-shadow: 0 -1em 10em black;
+    box-shadow: 0 -1vmax 10vmax black;
 }
     
 #thisfooter nav {
@@ -214,23 +212,23 @@ img {
     display: flex;
     grid-row: 2/10;
     grid-column: 3/11;
-    font-size: 200%;
-    margin-bottom: 3rem;
-    margin-top: 5rem;
-    flex-wrap: wrap;
-    justify-content: center;
+    font-size: 4vmax;
+    margin-bottom: 3vmax;
+    margin-top: 5vmax;
+    flex-direction: column;
+    align-items: center;
 }
 
 #piggygame p {
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 5vmax;
+    margin-top: 5vmax;
 }
 
 #piggygame a {
     color: white;
     font-size: 5vmax;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 5vmax;
+    margin-top: 5vmax;
 }
 
 #piggyfooter {
